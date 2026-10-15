@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatriz Siqueira — Portfólio</title>
+    <meta name="description" content="Beatriz Siqueira, 17 anos, de Belo Horizonte. Desenvolvedora front-end e designer UX/UI procurando o primeiro emprego em TI.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Beatriz Siqueira — Portfólio">
+    <meta property="og:description" content="Desenvolvedora front-end e designer UX/UI em Belo Horizonte.">
+    <meta property="og:url" content="https://beatrizsqi.github.io/portf-lioBeatriz/">
+    <meta property="og:image" content="https://beatrizsqi.github.io/portf-lioBeatriz/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="quadrado.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip" href="#main" data-i18n="skip">Pular para o conteúdo</a>
+
+    <header class="bar">
+        <a class="brand" href="#top" aria-label="Início">BS</a>
+
+        <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="nav" data-i18n="menu">Menu</button>
+
+        <nav id="nav" class="nav">
+            <a href="#sobre" data-i18n="nav_about">Sobre</a>
+            <a href="#inventario" data-i18n="nav_skills">Habilidades</a>
+            <a href="#projetos" data-i18n="nav_projects">Projetos</a>
+            <a href="#contato" data-i18n="nav_talk">Contato</a>
+        </nav>
+
+        <div class="toggles">
+            <button class="toggle toggle-lang" id="lang-btn" aria-label="Switch to English"><img src="icons/translate.png" alt=""><span id="lang-code">EN</span></button>
+            <button class="toggle" id="theme-btn" aria-pressed="false" data-i18n-aria="theme_label" aria-label="Modo escuro">
+                <img class="theme-icon" id="theme-icon" src="icons/moon.png" alt="">
+            </button>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="title-screen" id="top">
+            <p class="hud"><span class="hearts" aria-hidden="true"><img src="icons/heart.svg" alt=""><img src="icons/heart.svg" alt=""><img src="icons/heart.svg" alt=""></span></p>
+            <h1 class="name"><span>Beatriz</span><span>Siqueira</span></h1>
+            <p class="role" data-i18n="hero_role">Desenvolvedora front-end e designer UX/UI</p>
+            <a class="start" href="#sobre"><span class="blink" data-i18n="press_start">Pressione start</span></a>
+            <p class="sticker" aria-hidden="true"><span data-i18n="chip2">Aberta a propostas</span></p>
+        </section>
+
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-track">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>C#</span><span>SQL</span><span>Git</span><span>Figma</span><span>UX/UI</span><span>Design</span>
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>C#</span><span>SQL</span><span>Git</span><span>Figma</span><span>UX/UI</span><span>Design</span>
+            </div>
+        </div>
+
+        <section class="block" id="sobre">
+            <h2 data-i18n="about_title">Sobre mim</h2>
+            <figure class="selfie"><img src="selfie.jpg" alt="Foto da Beatriz: cabelo ruivo cacheado e óculos de armação fina" data-i18n-alt="selfie_alt" width="959" height="1280"></figure>
+            <div class="prose">
+                <p data-i18n="about_p1">Oi! Eu sou a Beatriz, tenho 17 anos e moro em Belo Horizonte. Gosto de desenhar e de programar, e mais ainda quando os dois se juntam: criar interfaces bonitas que funcionam de verdade.</p>
+                <p data-i18n="about_p2">Estou procurando meu primeiro emprego na área de TI. Trabalho com HTML, CSS, JavaScript, C# e SQL, desenho no Figma e tenho muita vontade de aprender com um time.</p>
+            </div>
+            <ul class="status">
+                <li data-i18n="chip1">Belo Horizonte, MG</li>
+                <li data-i18n="chip3">Procurando emprego em TI</li>
+            </ul>
+        </section>
+
+        <section class="block" id="inventario">
+            <h2 data-i18n="skills_title">Inventário</h2>
+            <div class="inventory">
+                <div class="bag">
+                    <h3 data-i18n="bag_code">Código</h3>
+                    <ul class="slots">
+                        <li><img src="icons/html5.svg" alt="">HTML5</li><li><img src="icons/css.svg" alt="">CSS3</li><li><img src="icons/javascript.svg" alt="">JavaScript</li>
+                        <li><img src="icons/csharp.svg" alt="">C#</li><li><img src="icons/sql.svg" alt="">SQL</li><li><img src="icons/git.svg" alt="">Git</li>
+                    </ul>
+                </div>
+                <div class="bag">
+                    <h3 data-i18n="bag_design">Design</h3>
+                    <ul class="slots">
+                        <li><img src="icons/figma.svg" alt="">Figma</li><li><img src="icons/uxui.svg" alt="">UX/UI</li><li><img src="icons/design.svg" alt=""><span data-i18n="skill_design">Design visual</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="block" id="projetos">
+            <h2 data-i18n="projects_title">Projetos</h2>
+            <div class="saves">
+                <article class="save">
+                    <p class="save-slot" data-i18n="slot1">Slot 1</p>
+                    <h3 data-i18n="p1_title">Este portfólio</h3>
+                    <p data-i18n="p1_desc">Site pessoal em HTML, CSS e JavaScript puros, com tema claro e escuro, versão em português e inglês e formulário de contato funcionando.</p>
+                    <p class="tags">HTML · CSS · JavaScript</p>
+                    <div class="save-links">
+                        <a href="https://beatrizsqi.github.io/portf-lioBeatriz/" target="_blank" rel="noopener" data-i18n="see_live">Ver o site</a>
+                        <a href="https://github.com/beatrizsqi/portf-lioBeatriz" target="_blank" rel="noopener" data-i18n="see_code">Ver o código</a>
+                    </div>
+                </article>
+                <a class="save save-empty" href="https://github.com/beatrizsqi" target="_blank" rel="noopener">
+                    <p class="save-slot" data-i18n="slot2">Slot 2 — vazio</p>
+                    <h3 data-i18n="empty_title">Próximo projeto carregando</h3>
+                    <p data-i18n="empty_desc">Acompanhe o que estou construindo no meu GitHub.</p>
+                    <span class="fake-link" data-i18n="see_github">Abrir GitHub</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="block" id="jornada">
+            <h2 data-i18n="resume_title">Jornada</h2>
+            <ol class="timeline">
+                <li>
+                    <p class="when">2025</p>
+                    <h3 data-i18n="r1_title">Início do curso de TI</h3>
+                    <p data-i18n="r1_desc">Começo da formação em tecnologia da informação.</p>
+                </li>
+                <li class="now">
+                    <p class="when">2026</p>
+                    <h3 data-i18n="r2_title">Em andamento</h3>
+                    <p data-i18n="r2_desc">Seguindo no curso e construindo projetos de front-end e design.</p>
+                </li>
+            </ol>
+        </section>
+
+        <section class="block" id="contato">
+            <h2 data-i18n="talk_title">Fale comigo</h2>
+            <p class="lead" data-i18n="talk_sub">Tem um projeto ou uma vaga? Me mande uma mensagem e eu respondo por e-mail.</p>
+            <form class="form" id="contact-form" novalidate>
+                <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+                <label>
+                    <span data-i18n="form_name">Seu nome</span>
+                    <input type="text" name="name" required autocomplete="name">
+                </label>
+                <label>
+                    <span data-i18n="form_email">Seu e-mail</span>
+                    <input type="email" name="email" required autocomplete="email">
+                </label>
+                <label class="full">
+                    <span data-i18n="form_msg">Mensagem</span>
+                    <textarea name="message" rows="6" required></textarea>
+                </label>
+                <div class="full form-end">
+                    <button type="submit" class="btn" id="send-btn" data-i18n="form_send">Enviar mensagem</button>
+                    <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+                </div>
+            </form>
+            <ul class="elsewhere">
+                <li><a class="channel" href="https://wa.me/5531995027618" target="_blank" rel="noopener"><img src="icons/whatsapp.svg" alt=""><span><span data-i18n="whatsapp">WhatsApp</span>: (31) 99502-7618</span></a></li>
+                <li><a class="channel" href="https://github.com/beatrizsqi" target="_blank" rel="noopener"><img src="icons/github.svg" alt=""><span>GitHub</span></a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="foot">
+        <p><span data-i18n="footer">Feito por</span> Beatriz Siqueira, <span id="year"></span>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
