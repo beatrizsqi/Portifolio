@@ -1,4 +1,4 @@
-const WEB3FORMS_KEY = 'COLE_SUA_CHAVE_AQUI'; // API WEB3FORM
+const WEB3FORMS_KEY = 'ce2dcc1f-0d09-468a-b766-4b705783a131';
 
 const translations = {
     pt: {
